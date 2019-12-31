@@ -18,3 +18,9 @@ for sss in *.sss; do
   fi
 done
 ```
+
+### Activation
+
+In SubEthaEdit, open Preferences and select the Styles tab.   
+In the dropdown at the top of the dialog, select Default (the top value), or a specific mode.   
+Select the "Custom style sheet" radio button, then the desired style in the dropdown to its right.
