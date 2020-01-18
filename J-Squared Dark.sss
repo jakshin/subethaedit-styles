@@ -1,0 +1,318 @@
+/* A soothing, low-contrast color scheme for SubEthaEdit 5.x, with a dark background */
+
+/*
+----- Meta Scopes -----
+Scopes used for special highlights, default values, code-folding and states - Scopes that may affect all sorts of texts.
+The meta.default scope of the top-level Language Context defines the base background and foreground color of the document.
+Default scope scopes also fall back on the defaults of the meta.default scope.
+*/
+
+meta.default {
+	background-color: #2e3137;
+	color: #d0d0d0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+meta.block.interpolation {
+	color: #64949b; /* String color */
+	font-weight: bold;
+}
+
+meta.important {
+	color: #ff644d;
+}
+
+meta.invalid {
+	color: #f44135;
+	font-strike-through: strike-through;
+}
+
+meta.invisible.character {
+	color: #595959;
+	font-style: normal;
+	font-weight: normal;
+}
+
+meta.link {
+	color: #64949b; /* String color */
+	font-underline: underline;
+}
+
+/*
+----- Scopes present in programming languages -----
+*/
+
+/* Comments */
+
+comment {
+	color: #9bb464;
+	font-style: normal;
+	font-weight: normal;
+}
+
+comment.block.documentation.tag {
+	font-weight: bold;
+}
+
+/* Keywords */
+
+keyword {
+	color: #80c1ff;
+}
+
+keyword.constant {
+	color: #568cc2;
+}
+
+/* Language Constructs */
+
+language.constant {
+	color: #568cc2;
+}
+
+language.operator {
+	color: #999999;
+}
+
+language.constant.numeric {
+	color: #9b79a0; /* Makes `true`, `false` and `nil` purple in EEx/Elixer - I think that's a bug in the mode? */
+	font-weight: bold;
+}
+
+language.preprocessor {
+	color: #4580ba;
+}
+
+language.subroutine {
+	color: #68adca;
+}
+
+language.variable.class {
+	font-weight: bold;
+}
+
+language.variable.global {
+	font-weight: bold;
+}
+
+language.variable.instance {
+	font-weight: bold;
+}
+
+/* Strings */
+
+string {
+	color: #64949b;
+}
+
+string.exec {
+	font-style: italic;
+}
+
+string.regex {
+	color: #9d6294;
+}
+
+/* Language Support - standard framework keywords/classnames/constants */
+
+support {
+	color: #7da6cf;
+}
+
+/*
+----- Scopes present in document description languages (HTML, CSS, etc.) -----
+*/
+
+/* Markup */
+
+markup.comment {
+	color: #9bb464;
+	font-style: normal;
+	font-weight: normal;
+}
+
+markup.constant.entity {
+	font-weight: bold;
+}
+
+markup.declaration {
+	color: #4580ba;
+}
+
+markup.tag {
+	color: #80c1ff;
+}
+
+markup.tag.attribute.name {
+	color: #7da6cf;
+}
+
+markup.tag.attribute.value.string {
+	color: #64949b;
+}
+
+/* Styles */
+
+style.at-rule {
+	color: #4580ba;
+}
+
+style.comment.block {
+	color: #9bb464;
+}
+
+style.property.name {
+	color: #7da6cf;
+}
+
+style.value.color {
+	color: #9b79a0;
+}
+
+style.value.keyword {
+	color: #80c1ff;
+}
+
+style.value.numeric {
+	color: #9b79a0;
+	font-weight: bold;
+}
+
+style.value.string {
+	color: #64949b;
+}
+
+/* Structured */
+
+structured.bold {
+    font-weight: bold;
+	font-style: normal;
+}
+
+structured.changes.added {
+	color: #94e34f;
+}
+
+structured.changes.deleted {
+	color: #eb5547;
+}
+
+structured.changes.modified {
+	color: #dab358;
+}
+
+structured.changes.replaced {
+	color: #df8953;
+}
+
+structured.changes.revision {
+	color: #80aaff;
+}
+
+structured.changes.user {
+	color: #80aaff;
+}
+
+structured.emphasis {
+	font-weight: bold;
+	font-style: italic;
+}
+
+structured.event {
+	color: #999999;
+}
+
+structured.footnote {
+	color: #666666;
+	font-style: italic;
+}
+
+structured.heading {
+	font-weight: bold;
+	font-style: normal;
+}
+
+structured.heading.1 {
+	color: #af6aa1;
+	font-weight: bold;
+}
+
+structured.heading.2 {
+	color: #a772a5;
+	font-weight: bold;
+}
+
+structured.heading.3 {
+	color: #96659a;
+	font-weight: bold;
+}
+
+structured.heading.4 {
+	color: #875b8b;
+	font-weight: bold;
+}
+
+structured.heading.5 {
+	color: #875b8b;
+	font-weight: bold;
+}
+
+structured.italic {
+	font-weight: normal;
+	font-style: italic;
+}
+
+structured.italicbold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+structured.list.numbered {
+	color: #a6a6a6;
+}
+
+structured.list.unnumbered {
+	color: #a6a6a6;
+}
+
+structured.quote.even {
+	color: #aaaaaa;
+}
+
+structured.quote.odd {
+	color: #777777;
+}
+
+structured.raw.code {
+	color: #7da6cf;
+}
+
+structured.raw.indented {
+	color: #7da6cf;
+}
+
+structured.reference {
+	color: #6699ff;
+}
+
+structured.section {
+	color: #4580ba;
+	font-weight: bold;
+}
+
+structured.separator {
+	color: #a6a6a6;
+	font-weight: normal;
+	font-style: normal;
+}
+
+structured.tool-tip {
+	color: #a6a6a6;
+	font-weight: normal;
+	font-style: italic;
+}
+
+structured.variable {
+	color: #568cc2;
+}
