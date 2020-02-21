@@ -24,3 +24,9 @@ done
 In SubEthaEdit, open Preferences and select the Styles tab.   
 In the dropdown at the top of the dialog, select Default (the top value), or a specific mode.   
 Select the "Custom style sheet" radio button, then the desired style in the dropdown to its right.
+
+### Screenshots
+
+Blueby++ | J-Squared Dark | J-Squared Light
+-------- | -------------- | ---------------
+<img src="Screenshots/Blueby++.png"> | <img src="Screenshots/J-Squared Dark.png"> | <img src="Screenshots/J-Squared Light.png">
