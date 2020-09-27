@@ -22,7 +22,7 @@ styles_dir="$HOME/Library/Containers/de.codingmonkeys.SubEthaEdit.Mac/Data\
 
 for sss in *.sss; do
   if [[ ! -e "$styles_dir/$sss" ]]; then
-    ln -s "$(pwd -P)/$sss" "$styles_dir/$sss"
+    cp "$(pwd -P)/$sss" "$styles_dir/$sss"
   fi
 done
 ```
